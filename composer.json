@@ -1,10 +1,10 @@
 {
-  "name": "rollbar/rollbar",
-  "description": "Monitors errors and exceptions and reports them to Rollbar",
+  "name": "laykou/rollbar-php",
+  "description": "Monitors errors and exceptions and reports them to Rollbar. Allows Proxy authentication.",
   "type": "library",
   "keywords": ["logging", "debugging", "monitoring", "errors", "exceptions"],
   "license": "MIT",
-  "homepage": "http://github.com/rollbar/rollbar-php",
+  "homepage": "http://github.com/laykou/rollbar-php",
   "authors": [
     {
       "name": "Rollbar, Inc.",
