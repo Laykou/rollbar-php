@@ -3,6 +3,28 @@
 <!-- RemoveNext -->
 PHP notifier for Rollbar. Catches and reports exceptions to [Rollbar.com](https://rollbar.com/) for alerts, reporting, and analysis.
 
+## Proxy authentication
+
+The difference between the original Rollbar PHP plugin is that this allows also proxy authentication. You can configure it like this:
+
+```PHP
+// With authentication
+$config = [
+  'proxy' => [
+    'address' => '123.123.123.123:9876',
+    'username' => 'my_name',
+    'password' => 'my_password'
+  ]
+];
+
+// Or you can use only the address:
+$config = [
+  'proxy' => '123.123.123.123:9876'
+];
+
+Rollbar::init($config);
+```
+
 <!-- Sub:[TOC] -->
 
 ## Quick start
