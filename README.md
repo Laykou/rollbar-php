@@ -66,12 +66,12 @@ Download [rollbar.php](https://raw.github.com/rollbar/rollbar-php/master/rollbar
 
 ### If Using Composer
 
-Add `Laykou/rollbar` to your `composer.json`:
+Add `Laykou/rollbar-php` to your `composer.json`:
 
 ```json
 {
     "require": {
-        "Laykou/rollbar": "*"
+        "Laykou/rollbar-php": "*"
     }
 }
 ```
